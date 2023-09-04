@@ -41,7 +41,7 @@ public class BouncingBall extends javax.swing.JFrame implements ActionListener{
         setSize(WIDTH, HEIGHT);
         setLocationRelativeTo(null);
         setResizable(false);
-        Timer timer = new Timer(BALL_DELAY, this);
+        Timer timer = new Timer(BALL_DELAY,this);
         timer.start();
         generateRandomSpeed();
     }
